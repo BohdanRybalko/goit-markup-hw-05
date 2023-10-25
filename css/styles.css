@@ -457,11 +457,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
  }
  .form-footer{
 display: flex;
+gap: 24px;
  }
- .label{
-gap:24px;
+ 
 
- }
+ 
 .imput-footer{
     width: 264px;
     height: 40px;
@@ -478,7 +478,7 @@ gap:24px;
 .placeholder{
 color: #ffffff;
 }
-.button-footer{
+.subscribe-footer{
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -497,7 +497,7 @@ color: #ffffff;
 }
 .button-svg-footer{
     margin-left: 16px;
-    
+
 }
 .section-portfolio{
     font-family: "Roboto", sans-serif;

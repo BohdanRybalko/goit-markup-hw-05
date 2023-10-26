@@ -236,6 +236,8 @@ background-color: var(--section-hover-focus);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-h-hiden{
     padding: 120px 0;

@@ -7,16 +7,7 @@ img{
     display: block;
 }
 
-.header-ads::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    width: 100%;
-}
+
 
 body{
     font-family: "Roboto", sans-serif;
@@ -165,28 +156,9 @@ background-color: var(--section-hover-focus);
             
            
 }
-.header-ads{
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        line-height: 1.5;
-        list-style: none;
-        text-decoration: none;
-        color: var(--brand-color);
-        padding: 24px 0;
-        display: block;
-        position: relative;
-        color: #404bbf;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-        
-
-    }
-    .header-ads:hover{color: var(--section-hover-focus);
-    }
-    .header-ads:focus{color: var(--section-hover-focus);
-    }
-    .header-ads-two{
+    
+    .header-ads{
         font-weight: 500;
             font-size: 16px;
             letter-spacing: 0.02em;
@@ -196,17 +168,34 @@ background-color: var(--section-hover-focus);
             color: var(--brand-color);
             padding: 24px 0;
             display: block;
-            position: relative;
-            color: #404bbf;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-        .header-ads-two:hover {
+        .header-ads:hover {
             color: var(--section-hover-focus);
         }
     
-        .header-ads-two:focus {
+        .header-ads:focus {
             color: var(--section-hover-focus);
         }
+                .header-carent {
+                    position: relative;
+                    color: #404bbf;
+        
+        
+        
+        
+                }
+        
+                .header-carent::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -1px;
+                    height: 4px;
+                    background-color: #404bbf;
+                    border-radius: 2px;
+                    width: 100%;
+                }
 .address-ul{
     font-style: normal;
     display: flex;
@@ -730,6 +719,7 @@ fill: #4D5AE5;
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 72px 24px 24px 24px;
 
 }
 .modal-button{

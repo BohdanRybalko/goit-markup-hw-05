@@ -782,6 +782,7 @@ fill: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: block;
 }
 .span-coment{
     width: 16px;

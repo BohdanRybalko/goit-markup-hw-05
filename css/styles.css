@@ -747,4 +747,6 @@ fill: #4D5AE5;
 }
 .svg-modal{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 50%;
 }

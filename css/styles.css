@@ -662,8 +662,11 @@ transform: translateY(0%);
     margin-bottom: 16px;
 }
 .div-modal-two{
-    margin-bottom: 16px
+    margin-bottom: 8px;
 
+}
+.div-modal-one{
+    margin-bottom: 16px;
 }
 .footer-label{
     font-size: 12px;
